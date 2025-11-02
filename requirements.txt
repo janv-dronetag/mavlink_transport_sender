@@ -1,0 +1,3 @@
+# Core dependencies for MAVLink Transport Sender
+pymavlink>=2.4.47
+pyserial>=3.0

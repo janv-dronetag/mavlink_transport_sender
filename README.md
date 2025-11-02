@@ -19,12 +19,19 @@ It is designed for testing, development, and integration of custom firmware or f
 ## Requirements
 - Python 3.8+
 - Libraries:
-  - `pymavlink==2.4.47`
+  - `pymavlink>=2.4.47`
   - `pyserial`
 
-Installation:
+Installation using `requirements.txt`:
+
 ```
-pip install pymavlink==2.4.47 pyserial
+pip install -r requirements.txt
+```
+
+**or** directly:
+
+```
+pip install "pymavlink>=2.4.47" pyserial
 ```
 
 ---
